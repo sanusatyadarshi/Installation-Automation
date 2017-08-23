@@ -3,7 +3,7 @@ title "Automating Default HTTPS Integration for Stealth Web Services"
 REM this is an automated batch script for Default HTTPS Integration for Stealth Web Services
 
 :: Installs	OPENSSL for Windows   (https://wiki.openssl.org/index.php/Binaries)
-C:\Users\60d0f10\Downloads\Programs\Win64OpenSSL-1_1_0f.exe /silent 
+\Downloads\Programs\Win64OpenSSL-1_1_0f.exe /silent 
 ::wscript "sendkey.vbs"
 setx path "%PATH%;C:\OpenSSL\bin" 
 echo OPENSSL installation completed:Step 1
