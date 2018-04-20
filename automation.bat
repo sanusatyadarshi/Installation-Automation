@@ -1,6 +1,6 @@
 @echo off
 title "Automating Default HTTPS Integration for Stealth Web Services"
-REM this is an automated batch script for Default HTTPS Integration for Stealth Web Services
+REM this is an automated batch script for Default HTTPS Integration for  Web Services
 
 :: Installs	OPENSSL for Windows   (https://wiki.openssl.org/index.php/Binaries)
 \Downloads\Programs\Win64OpenSSL-1_1_0f.exe /silent 
