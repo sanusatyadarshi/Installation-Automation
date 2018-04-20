@@ -10,7 +10,7 @@ echo OPENSSL installation completed:Step 1
 pause 
 
 ::Generate Private Key and Cert
- ::runas /user:AP\satyads cmd
+ ::runas /user:AP\xyz cmd
 
 
 ::cd "c:\Windows\System32\"
@@ -21,7 +21,7 @@ start cmd
 ::cd"c:\Program Files"
 ::start openssl
 
-::pkcs12 -in ustr-erl-8792-06-27-2016.pfx -out tempcertfile.crt -nodes
+::pkcs12 -in ustr-erl-0000-06-27-2016.pfx -out tempcertfile.crt -nodes
 
 exit
 
